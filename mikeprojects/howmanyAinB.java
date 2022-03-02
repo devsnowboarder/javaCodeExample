@@ -16,12 +16,16 @@ public class howmanyAinB {
         ArrayList<Integer> dubNum =new ArrayList<Integer>();
 
 
+
         for (int x : listB)
             listINTX.add(x);
+        System.out.println( " "+ listINTX);
 
-        for (int y: listA)
-            if ( !listINTX.add(y))
-              dubNum.add(y);
+        for (int y: listA) {
+            System.out.println(y + " "+ listINTX);
+            if (!listINTX.add(y))
+                dubNum.add(y);
+        }
             
    System.out.println(dubNum);
 

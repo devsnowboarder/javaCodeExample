@@ -20,14 +20,11 @@ public class duplicateitem2 {
 
         HashSet<String>  strList = new HashSet<>(listChar);
 
-
         for (String x: strList)
         {
             if (Collections.frequency(listChar,x) >1)
                 System.out.println(x);
         }
-
-
 
         list.add("Ashok");
         list.add("Vinod");

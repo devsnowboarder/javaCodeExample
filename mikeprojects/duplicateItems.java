@@ -28,8 +28,6 @@ public class duplicateItems
         }
 
         return dup;
-
-
     };
 
     public static void main(String[] args)
@@ -46,7 +44,10 @@ public class duplicateItems
         Elements.add("STRUTS");
         Elements.add("JSP");
 
-        HashSet<String> elementSet = new HashSet<>(Elements);
+        System.out.println(Elements);
+
+
+        HashSet<String> elementSet = new HashSet<>(Elements);  // remove all the duplicate
         System.out.print("ArrayList After Removing Duplicate Elements :");
         System.out.println(elementSet);
 

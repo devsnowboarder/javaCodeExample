@@ -26,6 +26,7 @@ public class MapExercise2 {
        String [] itemlist = {"computer","printer,","mouse","monotor,","keyboard","printer"};
 
         Hashtable<String,Integer> ht=new Hashtable<String,Integer>();
+
         int items = itemlist.length;
 
         for ( int i = 0 ; i <  items; i++)

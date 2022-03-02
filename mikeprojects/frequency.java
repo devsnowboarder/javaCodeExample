@@ -24,5 +24,10 @@ public class frequency {
         for ( String x2: strSet)
             System.out.println(x2+ " "+ Collections.frequency(charList,x2));
 
+        System.out.println(Collections.max(charList));
+        System.out.println(".."+Collections.min(charList));
+
+
+
     }
 }

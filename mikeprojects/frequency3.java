@@ -52,6 +52,13 @@ public class frequency3 {
             System.out.println(i +"  nu m =  "+frequency3.frequency(targetLIST, i));
         }
 
+        System.out.println(Collections.max(targetLIST));
+        System.out.println(Collections.min(targetLIST));
+
+         int xnum = Collections.max(targetLIST).intValue();
+         int xnum2 = Collections.min(targetLIST).intValue();
+
+         System.out.println(xnum - xnum2);
 
         Set<Character> charList2 = new HashSet<>(targetChar);
         for (Character x: charList2)

@@ -23,6 +23,9 @@ import java.util.ArrayList;
              carList(cars);
              System.out.println(cars.get(2));
 
+             for ( int i=0; i < 4; i++ )
+                 System.out.println((cars.get(i)));
+
 
         }
     }
