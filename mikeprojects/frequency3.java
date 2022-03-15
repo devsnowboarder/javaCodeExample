@@ -35,7 +35,6 @@ public class frequency3 {
         // use set  set <Character> test = new HashSet<String>(
 
         List<Integer> targetLIST = Arrays.asList(num);
-
         List<Character>targetChar =Arrays.asList(charList);
 
 

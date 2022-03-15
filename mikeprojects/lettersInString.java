@@ -2,8 +2,7 @@ package mikeprojects;
 import java.util.*;
 
 public class lettersInString {
-
-
+    
     static ArrayList<Character>  letterList ( String str) {
 
         ArrayList<Character> letter = new ArrayList<>();

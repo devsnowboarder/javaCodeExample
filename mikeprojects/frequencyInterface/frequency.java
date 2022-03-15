@@ -2,6 +2,7 @@ package mikeprojects.frequencyInterface;
 // need to fix this
 import java.util.ArrayList;
 import java.util.Collections;
+
 //ArrayList<String> charList = new ArrayList<>();
 interface Frequency {
     void frequency(ArrayList<Integer> array );

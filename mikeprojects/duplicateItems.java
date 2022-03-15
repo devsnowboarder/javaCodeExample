@@ -9,6 +9,11 @@ public class duplicateItems
 {
 
 
+    //char[] s1Array = copyOfs1.toLowerCase().toCharArray();
+    //
+    //char[] s2Array = copyOfs2.toLowerCase().toCharArray();
+    //
+
     public static ArrayList<String>  duplicateNumber(ArrayList<String> Elements) {
 
         HashSet<String>  set =new HashSet<String>(Elements);

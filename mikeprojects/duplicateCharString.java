@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 
-public class frequency {
+public class duplicateCharString {
     public static void main(String[] args) {
 
         String str = "Exxon";
-       // Integer[] num =[1,3,4,6,1,4,6,9,12];
+        // Integer[] num =[1,3,4,6,1,4,6,9,12];
 
 
         char[] charStr = str.toCharArray();
@@ -22,16 +22,12 @@ public class frequency {
 
        // HashSet<Integer> numSet = new HashSet<Integer>(num);
 
-        for ( String x2: strSet) {
-           // System.out.println(x2 + " " + Collections.frequency(charList, x2));
-
+       for ( String x2: strSet) {
+            // System.out.println(x2 + " " + Collections.frequency(charList, x2));
 
             if (Collections.frequency(charList, x2)  < 2)
                 System.out.print(x2);
         }
-
-       // System.out.println(Collections.max(charList));
-       // System.out.println(".."+Collections.min(charList));
 
 
 
